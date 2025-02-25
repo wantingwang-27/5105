@@ -17,8 +17,8 @@ def generate_checkerboard(size=64, num_squares=8):
 checkerboard = generate_checkerboard()
 ### Plot checkerboard
 plt.figure(figsize=(6,6))
-# change from grey to viridis
-plt.imshow(checkerboard, cmap="viridis", interpolation="nearest")
+# change-colormap
+plt.imshow(checkerboard, cmap="blue", interpolation="nearest")
 plt.axis("off")
 plt.title("A Checkerboard Pattern")
 plt.show()
